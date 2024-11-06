@@ -1,0 +1,20 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+
+:root {
+    --cor-de-fundo:#95877c;
+    --branco: #FFFFFF;
+    --rose: #ff50e2;
+    --rosa-degrade: linear-gradient(97.54deg, #ff6e78 35.49%, #ab592a 165.37%);
+    --fonte-principal: "Ubuntun";
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
